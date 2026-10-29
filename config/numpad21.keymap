@@ -25,73 +25,73 @@
  */
 
 / {
-    /* Nhap chu kieu Nokia: bam lien tiep trong 0.6s de doi ky tu (vd 2: 2 d e f) */
+    /* Nhap chu kieu Nokia: bam lien tiep CUNG phim trong 0.6s de doi ky tu; ky tu hien ngay (gui Backspace + ky tu moi) */
     behaviors {
         td_1: td_1 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N1>, <&kp A>, <&kp B>, <&kp C>;
+            keys = <N1 A B C>;
         };
         td_2: td_2 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N2>, <&kp D>, <&kp E>, <&kp F>;
+            keys = <N2 D E F>;
         };
         td_3: td_3 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N3>, <&kp G>, <&kp H>, <&kp I>;
+            keys = <N3 G H I>;
         };
         td_4: td_4 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N4>, <&kp J>, <&kp K>, <&kp L>;
+            keys = <N4 J K L>;
         };
         td_5: td_5 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N5>, <&kp M>, <&kp N>, <&kp O>;
+            keys = <N5 M N O>;
         };
         td_6: td_6 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N6>, <&kp P>, <&kp Q>, <&kp R>;
+            keys = <N6 P Q R>;
         };
         td_7: td_7 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N7>, <&kp S>, <&kp T>, <&kp U>;
+            keys = <N7 S T U>;
         };
         td_8: td_8 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N8>, <&kp V>, <&kp W>, <&kp X>;
+            keys = <N8 V W X>;
         };
         td_9: td_9 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N9>, <&kp Y>, <&kp Z>;
+            keys = <N9 Y Z>;
         };
         td_0: td_0 {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp N0>, <&kp SPACE>;
+            keys = <N0 SPACE>;
         };
         td_dot: td_dot {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk,behavior-multitap";
             #binding-cells = <0>;
             tapping-term-ms = <600>;
-            bindings = <&kp DOT>, <&kp COMMA>, <&kp QMARK>, <&kp EXCL>;
+            keys = <DOT COMMA QMARK EXCL>;
         };
     };
 

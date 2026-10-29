@@ -1,0 +1,13 @@
+description: Nhap ky tu kieu Nokia (multi-tap), ky tu hien ngay khi bam
+
+compatible: "zmk,behavior-multitap"
+
+include: zero_param.yaml
+
+properties:
+  keys:
+    type: array
+    required: true
+  tapping-term-ms:
+    type: int
+    default: 600
